@@ -32,7 +32,7 @@ function App() {
       <div>
         <ul>
           {items.map((x, index) => (
-            <ToDoItem key={index} item={x} />
+            <ToDoItem Itemkey={index} item={x} />
           ))}
         </ul>
       </div>

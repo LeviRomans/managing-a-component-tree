@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function ToDoItem(props) {
   const newItem = props.item;
-  const itemKey = props.key;
+  const itemKey = props.Itemkey.toString();
 
   const [isClicked, setIsClicked] = useState("");
 
